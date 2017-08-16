@@ -1,0 +1,131 @@
+.side-nav {
+	float:left;
+	height:100%;
+}
+
+.right-col-margin-8 {
+	margin-left:0;
+}
+
+.flypanels-container .flypanels-main .flypanels-content {
+	transform:none;
+	-o-transform:none;
+	-ms-transform:none;
+	-moz-transform:none;
+	-webkit-transform:none;
+}
+
+.page-title {
+	display:none;
+}
+
+/* ============================================
+                 Main header
+   ============================================ */
+.moss-header {
+	overflow:hidden;
+	height:auto;
+}
+	.moss-header > .container > img {
+		margin-left:-80px;
+		height:87px;
+	}
+	.moss-header > .container > .moss-search-block {
+		float:right;
+	}
+
+
+/* ============================================
+               Horizontal nav
+   ============================================ */
+.navbar-nav.nav-menu > li:first-child {
+	visibility:hidden;
+	width:0;
+}
+
+
+
+
+.content {
+	background-color:#e3eff1;
+}
+
+.breadcrumbs {
+	background-color:white;
+	padding:5px 0 30px;
+}
+	.breadcrumbs .container {
+		padding:0 15px;
+	}
+
+
+
+
+/* ============================================
+                   Left nav
+   ============================================ */
+.left-side {
+}
+	.left-side * {
+		background-color:inherit !important;
+	}
+	.left-side .left-container {
+		float:right;
+		width:90%;
+		max-width:310px;
+	}
+	.left-side .left-container.fixed {
+		position:fixed;
+		top:80px;
+		right:67%;
+		width:28%;
+		float:none;
+	}
+		.left-side .left-container > .left-nav-item {
+			border-bottom:1px solid #CCC;
+			padding:4px 0 0;
+			display:block;
+			margin-right:10px;
+		}
+		.left-side .left-container > div:last-child {
+			border:none;
+		}
+		.left-side .left-container > h1 {
+			font-size:1.1em;
+			font-weight:300;
+			margin:20px 0;
+			padding:0;
+			border:none;
+			text-transform:uppercase;
+			color:#660000;
+		}
+		.left-side .left-container > div > * {
+			cursor:pointer;
+		}
+		.left-side .left-container > div > a {
+			color:black;
+			font-weight:100;
+		}
+		.left-side .left-container > div > span {
+			margin-left:10px;
+		}
+	.left-side .left-container > .extra-left-bar {
+		margin-top:30px;
+	}
+	
+	
+/* ============================================
+                   Main content
+   ============================================ */
+.right-side {
+	background-color:white;
+	overflow:hidden;
+	padding-left:20px;
+}
+	.right-side h1 {
+		background-color:#660000;
+		color:white;
+		margin:0 0 20px;
+		padding:10px 20px;
+		font-size:2em;
+	}
