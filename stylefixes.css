@@ -19,6 +19,20 @@
 	display:none;
 }
 
+
+
+/* ============================================
+                  VT header
+   ============================================ */
+.vt-coe-header {
+}
+	.vt-coe-header .container > img:last-child {
+		border-left:2px solid #ff6600;
+		margin-left:20px;
+	}
+
+
+
 /* ============================================
                  Main header
    ============================================ */
@@ -26,13 +40,21 @@
 	overflow:hidden;
 	height:auto;
 }
-	.moss-header > .container > img {
-		margin-left:-80px;
-		height:87px;
+	.moss-header > .container {
+		position:relative;
 	}
-	.moss-header > .container > .moss-search-block {
-		float:right;
-	}
+		.moss-header > .container img {
+			position:absolute;
+			left:-60px;
+			height:87px;
+		}
+		.moss-header > .container img:last-child {
+			left:11px;
+		}
+		.moss-header > .container > .moss-search-block {
+			float:right;
+		}
+
 
 
 /* ============================================
@@ -65,6 +87,7 @@
                    Left nav
    ============================================ */
 .left-side {
+	position:relative;
 }
 	.left-side * {
 		background-color:inherit !important;
@@ -81,12 +104,26 @@
 		width:28%;
 		float:none;
 	}
-		.left-side .left-container > .left-nav-item {
+	.left-side .left-container.absolute {
+		position:absolute;
+		float:none;
+		right:0;
+	}
+		.left-side .left-container .left-nav-item {
 			border-bottom:1px solid #CCC;
 			padding:4px 0 0;
 			display:block;
 			margin-right:10px;
 		}
+		.left-side .left-container .subnav {
+			margin-left:10px;
+			overflow:hidden;
+			height:0;
+			transition:height .5s;
+		}
+			.left-side .left-container .subnav > div:last-child {
+				padding-bottom:10px;
+			}
 		.left-side .left-container > div:last-child {
 			border:none;
 		}
@@ -128,4 +165,11 @@
 		margin:0 0 20px;
 		padding:10px 20px;
 		font-size:2em;
+		position:relative;
 	}
+		.right-side h1 img {
+			position:absolute;
+			right:0;
+			top:0;
+			height:100%;
+		}
