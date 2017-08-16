@@ -19,6 +19,9 @@
 	display:none;
 }
 
+p {
+	line-height:1.4;
+}
 
 
 /* ============================================
@@ -129,7 +132,7 @@
 		}
 		.left-side .left-container > h1 {
 			font-size:1.1em;
-			font-weight:300;
+			font-weight:500;
 			margin:20px 0;
 			padding:0;
 			border:none;
@@ -141,7 +144,7 @@
 		}
 		.left-side .left-container > div > a {
 			color:black;
-			font-weight:300;
+			font-weight:500;
 		}
 		.left-side .left-container > div > span {
 			margin-left:10px;
