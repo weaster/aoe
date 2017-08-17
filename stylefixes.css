@@ -96,7 +96,10 @@ p {
 	background-color:#e3eff1;
 	margin-top:70px;
 }
-
+	.flypanels-content.content > div {
+		position:relative;
+		overflow:hidden;
+	}
 .breadcrumbs {
 	background-color:white;
 	padding:5px 0 30px;
@@ -154,7 +157,7 @@ p {
 			text-transform:uppercase;
 			color:#660000;
 		}
-			.left-side .left-container > div > * {
+			.left-side .left-container > div > .glyphicon {
 				cursor:pointer;
 			}
 			.left-side .left-container > div > a {
@@ -210,7 +213,7 @@ p {
 		display:none;
 	}
 	
-	.content {
+	.flypanels-content.content {
 		margin-top:20px;
 	}
 	
