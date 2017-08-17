@@ -23,6 +23,28 @@ p {
 	line-height:1.4;
 }
 
+.shield {
+	visibility:hidden;
+	width:0;
+}
+
+#vt_access_nav {
+	position:absolute;
+	width:100%;
+}
+#vt_access_nav.navbar-sticky {
+	position:fixed;
+}
+
+.navbar-nav {
+	margin-left:0;
+}
+
+.offcanvas {
+	position:relative;
+	z-index:1000;
+}
+
 
 /* ============================================
                   VT header
@@ -41,7 +63,6 @@ p {
    ============================================ */
 .moss-header {
 	overflow:hidden;
-	height:auto;
 }
 	.moss-header > .container {
 		position:relative;
@@ -91,26 +112,19 @@ p {
    ============================================ */
 .left-side {
 	position:relative;
+	padding:0;
 }
 	.left-side * {
 		background-color:inherit !important;
 	}
 	.left-side .left-container {
-		float:right;
-		width:90%;
-		max-width:310px;
+		position:relative;
 	}
 	.left-side .left-container.fixed {
 		position:fixed;
-		top:80px;
-		right:67%;
-		width:28%;
-		float:none;
 	}
 	.left-side .left-container.absolute {
 		position:absolute;
-		float:none;
-		right:0;
 	}
 		.left-side .left-container .left-nav-item {
 			border-bottom:1px solid #CCC;
@@ -139,19 +153,23 @@ p {
 			text-transform:uppercase;
 			color:#660000;
 		}
-		.left-side .left-container > div > * {
-			cursor:pointer;
+			.left-side .left-container > div > * {
+				cursor:pointer;
+			}
+			.left-side .left-container > div > a {
+				color:black;
+				font-weight:500;
+			}
+			.left-side .left-container > div > span {
+				margin-left:10px;
+			}
+		.left-side .left-container > .extra-left-bar {
+			margin-top:30px;
 		}
-		.left-side .left-container > div > a {
-			color:black;
-			font-weight:500;
-		}
-		.left-side .left-container > div > span {
-			margin-left:10px;
-		}
-	.left-side .left-container > .extra-left-bar {
-		margin-top:30px;
-	}
+			.left-side .left-container > .extra-left-bar img {
+				width:100%;
+			}
+		
 	
 	
 /* ============================================
@@ -181,3 +199,17 @@ p {
 			top:0;
 			height:100%;
 		}
+		
+
+/* ============================================
+                   Responsive
+   ============================================ */
+@media (max-width: 767px) {
+	.vt-coe-header {
+		display:none;
+	}
+	
+	.left-side .left-container {
+		display:none;
+	}
+}
