@@ -94,6 +94,7 @@ p {
 
 .content {
 	background-color:#e3eff1;
+	margin-top:70px;
 }
 
 .breadcrumbs {
@@ -207,6 +208,10 @@ p {
 @media (max-width: 767px) {
 	.vt-coe-header {
 		display:none;
+	}
+	
+	.content {
+		margin-top:20px;
 	}
 	
 	.left-side .left-container {
