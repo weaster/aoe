@@ -50,6 +50,7 @@ p {
                   VT header
    ============================================ */
 .vt-coe-header {
+	background-color:white;
 }
 	.vt-coe-header .container > img:last-child {
 		border-left:2px solid #ff6600;
@@ -183,7 +184,7 @@ p {
 	background-color:white;
 	overflow:hidden;
 	padding-left:20px;
-	min-height:750px;
+	height:100%;
 }
 	.right-side .bucket {
 		max-width:1000px;
@@ -198,11 +199,15 @@ p {
 		font-size:2em;
 		position:relative;
 	}
+		.right-side h1.page-heading > span {
+			position:relative;
+			z-index:5;
+		}
 		.right-side h1 img {
 			position:absolute;
 			right:0;
 			top:0;
-			height:100%;
+			z-index:1;
 		}
 		
 
