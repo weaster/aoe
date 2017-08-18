@@ -183,6 +183,7 @@ p {
 	background-color:white;
 	overflow:hidden;
 	padding-left:20px;
+	min-height:700px;
 }
 	.right-side .bucket {
 		max-width:1000px;
