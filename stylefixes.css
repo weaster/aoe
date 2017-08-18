@@ -53,6 +53,9 @@ p {
 /* ============================================
               Homepage Carousel
    ============================================ */
+.vt-carousel h3 {
+	font-size:32px;
+}
 .vt-carousel-control-belowImage {
 	display:none;
 }
@@ -60,6 +63,13 @@ p {
 	padding-bottom:0;
 	bottom:27px;
 }
+	.carousel-caption p {
+		margin-bottom:0;
+	}
+	.carousel-caption .container {
+		padding-left:20px;
+		padding-right:20px;
+	}
 
 
 
@@ -243,4 +253,32 @@ p {
 	.left-side .left-container {
 		display:none;
 	}
+	.carousel-caption.left p {
+		margin-bottom:20px;
+	}
+	
+	.right-side .bucket {
+		padding-left:0;
+	}
+}
+
+@media (max-width: 670px) {
+	.col-sm-12.right-side {
+		padding-left:0;
+		padding-right:0;
+	}
+	.flypanels-content .container {
+		padding-left:15px;
+		padding-right:15px;
+	}
+	.carousel-caption.left {
+		padding-left:20px;
+		padding-right:20px;
+	}
+		.carousel-caption.left h3 {
+			font-size:20px;
+		}
+		.carousel-caption.left p {
+			font-size:16px;
+		}
 }
