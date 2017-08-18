@@ -51,6 +51,19 @@ p {
 
 
 /* ============================================
+              Homepage Carousel
+   ============================================ */
+.vt-carousel-control-belowImage {
+	display:none;
+}
+.carousel-caption.left {
+	padding-bottom:0;
+	bottom:27px;
+}
+
+
+
+/* ============================================
                   VT header
    ============================================ */
 .vt-coe-header {
