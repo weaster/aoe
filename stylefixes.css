@@ -69,6 +69,9 @@ a.ob {
 	line-height:1.4;
 }
 
+ul {
+	font-size:18px;
+}
 
 /* ============================================
               Homepage Carousel
@@ -133,8 +136,7 @@ a.ob {
                Horizontal nav
    ============================================ */
 .navbar-nav.nav-menu > li:first-child {
-	visibility:hidden;
-	width:0;
+	
 }
 
 
