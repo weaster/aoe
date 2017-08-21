@@ -49,6 +49,17 @@ p {
 	z-index:1000;
 }
 
+a.ob {
+	width:200px;
+	text-align:center;
+	display:block;
+	margin:5px auto;
+	padding:5px 8px;
+	background-color:#ff6600;
+	color:white;
+	box-shadow:0 4px 0 #e15a00;
+}
+
 
 /* ============================================
               Homepage Carousel
@@ -236,11 +247,65 @@ p {
 			top:0;
 			z-index:1;
 		}
-		
+
+
+
+/* ============================================
+                Homepage Video
+   ============================================ */
+.parbase.no-pad {
+	padding:0;
+	margin:0;
+}
+.vt-vtcontainer-content {
+	overflow:hidden;
+	position:relative;
+}
+.ytvid-main {
+	width:100%;
+	padding-right:220px;
+	margin-bottom:0;
+}
+.ytvid-side {
+	width:200px;
+	position:absolute;
+	right:0;
+	top:0;
+}
+	.ytvid-side img {
+		width:100%;
+		margin-bottom:10px;
+		background-color:#ff6600;
+		cursor:pointer;
+	}
+	.ytvid-side img:hover {
+		opacity:.5;
+	}
+	.vid-button {
+		position:absolute;
+		right:0;
+		bottom:0;
+	}
+
+
+
+	
 
 /* ============================================
                    Responsive
    ============================================ */
+@media (max-width: 991px) {
+	.ytvid-main {
+		padding-right:0;
+	}
+	.ytvid-side {
+		display:none;
+	}
+	.vid-button {
+		position:relative;
+		margin:20px auto;
+	}
+}
 @media (max-width: 767px) {
 	.vt-coe-header {
 		display:none;
@@ -260,6 +325,7 @@ p {
 	.right-side .bucket {
 		padding-left:0;
 	}
+	
 }
 
 @media (max-width: 670px) {
