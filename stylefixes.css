@@ -60,6 +60,11 @@ a.ob {
 	box-shadow:0 4px 0 #e15a00;
 }
 
+.logo-block {
+	position:absolute;
+	height:88px;
+}
+
 
 /* ============================================
               Homepage Carousel
