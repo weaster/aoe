@@ -228,6 +228,7 @@ a.ob {
 	overflow:hidden;
 	padding-left:20px;
 	height:100%;
+	min-height:1000px;
 }
 	.right-side .bucket {
 		max-width:1000px;
