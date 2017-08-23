@@ -116,6 +116,9 @@ nav.navbar {
 				.uc-nav-c .uc-nav .nav-item > a > i {
 					margin:0 10px;
 				}
+				.uc-nav-c .uc-nav .nav-item.right > a > i {
+					margin:0 5px;
+				}
 			.uc-nav-c .uc-nav .nav-item .submenu {
 				display:none;
 				position:absolute;
