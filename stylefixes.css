@@ -32,10 +32,6 @@ p {
 	width:0;
 }
 
-#vt_access_nav {
-	position:absolute;
-	width:100%;
-}
 #vt_access_nav.navbar-sticky {
 	position:fixed;
 }
@@ -72,6 +68,82 @@ a.ob {
 ul {
 	font-size:18px;
 }
+
+nav.navbar {
+	height:0;
+	visibility:hidden;
+	overflow:hidden;
+	display:none;
+}
+
+/* ============================================
+              Main navigation
+   ============================================ */
+.uc-nav-c {
+	font-size:1.2em;
+	min-height:54px;
+}
+	.uc-nav-c .uc-nav {
+		background-color:#282323;
+		position:relative;
+		z-index:1000;
+		width:100%;
+	}
+	.uc-nav-c .uc-nav.sticky {
+		position:fixed;
+		top:0;
+	}
+		.uc-nav-c .uc-nav .nav-item {
+			float:left;
+			font-family:"PT Sans",sans-serif;
+			position:relative;
+		}
+		.uc-nav-c .uc-nav .nav-item.right {
+			float:right;
+		}
+		.uc-nav-c .uc-nav .nav-item:hover {
+			background-color:#EDEADA;
+		}
+			.uc-nav-c .uc-nav .nav-item > a {
+				padding:12px;
+				color:white;
+				text-decoration:none;
+				display:block;
+			}
+			.uc-nav-c .uc-nav .nav-item:hover a {
+				color:#333;
+			}
+				.uc-nav-c .uc-nav .nav-item > a > i {
+					margin:0 10px;
+				}
+			.uc-nav-c .uc-nav .nav-item .submenu {
+				display:none;
+				position:absolute;
+				top:99%;
+				overflow:hidden;
+				box-shadow:2px 2px 1px #333;
+			}
+			.uc-nav-c .uc-nav .nav-item:hover .submenu {
+				display:block;
+			}
+				.uc-nav-c .uc-nav .nav-item .submenu a {
+					padding:12px 15px 12px 30px;
+					display:block;
+				}
+				.uc-nav-c .uc-nav .nav-item .submenu a:first-child {
+					padding-top:25px;
+				}
+				.uc-nav-c .uc-nav .nav-item .submenu a:last-child {
+					padding-bottom:25px;
+				}
+				.uc-nav-c .uc-nav .nav-item .submenu a {
+					font-size:.9em;
+					line-height:1.2;
+					background-color:#EDEADA;
+					color:#333;
+				}
+
+
 
 /* ============================================
               Homepage Carousel
@@ -132,19 +204,12 @@ ul {
 
 
 
-/* ============================================
-               Horizontal nav
-   ============================================ */
-.navbar-nav.nav-menu > li:first-child {
-	
-}
-
 
 
 
 .flypanels-content.content {
 	background-color:#e3eff1;
-	margin-top:70px;
+	margin-top:30px;
 }
 	.flypanels-content.content > div {
 		position:relative;
@@ -341,6 +406,9 @@ ul {
 		padding-left:0;
 	}
 	
+	.uc-nav-c {
+		display:none;
+	}
 }
 
 @media (max-width: 670px) {
