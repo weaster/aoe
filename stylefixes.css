@@ -1,6 +1,11 @@
 body {
 	background-color:white;
+	position:relative;
 }
+html.flypanels-open, body.flypanels-open {
+	overflow:hidden;
+}
+
 
 .side-nav {
 	float:left;
@@ -73,6 +78,10 @@ nav.navbar {
 	height:0;
 	visibility:hidden;
 	overflow:hidden;
+	display:none;
+}
+
+.flypanels-topbar {
 	display:none;
 }
 
@@ -192,11 +201,13 @@ nav.navbar {
 }
 	.moss-header > .container {
 		position:relative;
+		height:100%;
 	}
 		.moss-header > .container img {
 			position:absolute;
 			left:-60px;
-			height:87px;
+			height:100%;
+			z-index:10;
 		}
 		.moss-header > .container img:last-child {
 			left:11px;
@@ -205,6 +216,102 @@ nav.navbar {
 			float:right;
 		}
 
+/* ============================================
+                   Mobile Nav
+   ============================================ */
+		.moss-header > .container .mobile-nav {
+			position:fixed;
+			top:0;
+			right:0;
+			width:100%;
+			height:50px;
+			z-index:1000;
+		}
+		.moss-header > .container .mobile-nav.visible {
+			background-color:#292323;
+		}
+			.moss-header > .container .mobile-nav img {
+				margin-left:20px;
+				display:none;
+				position:static;
+				float:left;
+			}
+			.moss-header > .container .mobile-nav.visible img {
+				display:block;
+			}
+			.moss-header > .container .mobile-nav a:first-child img {
+				width:27px;
+				height:54px;
+				position:relative;
+				top:10px;
+				left:0;
+			}
+				.moss-header > .container .mobile-nav a img {
+					height:100%;
+				}
+			.moss-header > .container .mobile-nav a:nth-of-type(2) img {
+				margin-left:50px;
+			}
+			.moss-header > .container .mobile-nav .mn-button {
+				display:block;
+				position:absolute;
+				height:100%;
+				right:0;
+				top:0;
+				vertical-align:middle;
+			}
+				.moss-header > .container .mobile-nav .mn-button > i {
+					height:100%;
+					display:inline-block;
+					padding:11px;
+					color:white;
+					cursor:pointer;
+				}
+				.moss-header > .container .mobile-nav .mn-button .mn-menu {
+					position:absolute;
+					right:-260px;
+					top:50px;
+					overflow:auto;
+					width:260px;
+					background-color:#292323;
+					height:0;
+					overflow:auto;
+					transition:all .5s;
+					height:100vh;
+				}
+				.moss-header > .container .mobile-nav .mn-button .mn-menu.open {
+					right:0;
+				}
+					.moss-header > .container .mobile-nav .mn-button .mn-menu .mn-menu-item {
+						border-top:2px solid #777;
+					}
+						.mobile-nav .mn-menu-item > a {
+							display:inline-block;
+							padding:20px;
+							color:white;
+						}
+						.mobile-nav .mn-menu-item .expand {
+							float:right;
+							color:white;
+						}
+							.mobile-nav .expand i.fa {
+								padding:20px;
+							}
+					.mobile-nav .mn-menu .mn-subnav {
+						height:0;
+						overflow:hidden;
+						transition:height .5s;
+					}
+						.mobile-nav .mn-subnav > a {
+							display:block;
+							padding:10px 20px 10px 30px;
+							color:white;
+							border-top:2px solid #777;
+							background-color:#557082;
+						}
+						.mobile-nav .mn-subnav > a:last-child {
+							padding-bottom:30px;
+						}
 
 
 
@@ -326,6 +433,7 @@ nav.navbar {
 			right:0;
 			top:0;
 			z-index:1;
+			height:100%;
 		}
 
 
@@ -390,10 +498,26 @@ nav.navbar {
 	}
 }
 @media (max-width: 767px) {
+	html.flypanels-open, body.flypanels-open {
+		overflow:hidden;
+	}
 	.vt-coe-header {
 		display:none;
 	}
-	
+	.moss-header {
+		height:50px;
+	}
+		.moss-header > .container {
+		}
+			.moss-header > .container .mobile-nav {
+				display:block;
+			}
+			.moss-header > .container img {
+				left:-30px;
+			}
+			.moss-header > .container img:last-child {
+				left:11px;
+		}
 	.flypanels-content.content {
 		margin-top:20px;
 	}
