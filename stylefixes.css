@@ -266,19 +266,22 @@ nav.navbar {
 					padding:11px;
 					color:white;
 					cursor:pointer;
-					font-size:25px;
+					position:relative;
+					z-index:2;
 				}
 				.moss-header > .container .mobile-nav .mn-button .mn-menu {
 					position:absolute;
 					right:-260px;
-					top:50px;
+					top:0;
+					margin-top:50px;
 					overflow:auto;
 					width:260px;
 					background-color:#292323;
 					height:0;
 					overflow:auto;
 					transition:all .5s;
-					height:100vh;
+					height:calc(100vh - 50px);
+					z-index:1;
 				}
 				.moss-header > .container .mobile-nav .mn-button .mn-menu.open {
 					right:0;
@@ -297,7 +300,6 @@ nav.navbar {
 						}
 							.mobile-nav .expand i.fa {
 								padding:20px;
-								font-size:20px;
 							}
 					.mobile-nav .mn-menu .mn-subnav {
 						height:0;
