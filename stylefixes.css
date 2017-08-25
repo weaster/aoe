@@ -203,14 +203,24 @@ nav.navbar {
 		position:relative;
 		height:100%;
 	}
-		.moss-header > .container img {
+		.moss-header > .container > img {
 			position:absolute;
 			left:-60px;
 			height:100%;
 			z-index:10;
 		}
-		.moss-header > .container img:last-child {
+		.moss-header > .container > a {
+			position:relative;
+			z-index:2;
+		}
+		.moss-header > .container a:nth-of-type(1) img {
 			left:11px;
+		}
+		.moss-header > .container a:nth-of-type(2) img {
+			display:none;
+		}
+		.moss-header > .container a:nth-of-type(3) img {
+			display:none;
 		}
 		.moss-header > .container > .moss-search-block {
 			float:right;
@@ -225,11 +235,11 @@ nav.navbar {
 			right:0;
 			width:100%;
 			height:50px;
-			z-index:1000;
 			display:none;
 		}
 		.moss-header > .container .mobile-nav.visible {
 			background-color:#292323;
+			z-index:1000;
 		}
 			.moss-header > .container .mobile-nav img {
 				margin-left:20px;
@@ -519,12 +529,26 @@ nav.navbar {
 			.moss-header > .container .mobile-nav {
 				display:block;
 			}
-			.moss-header > .container img {
-				left:-30px;
+			.moss-header > .container > img {
+				display:none;
 			}
-			.moss-header > .container img:last-child {
-				left:11px;
-		}
+			.moss-header > .container > a:nth-of-type(1) img {
+				display:none;
+			}
+			.moss-header > .container > a:nth-of-type(2) img {
+				display:block;
+				border-right:2px solid #ff6600;
+				height:100%;
+				position:static;
+				float:left;
+			}
+			.moss-header > .container > a:nth-of-type(3) img {
+				display:block;
+				height:100%;
+				position:static;
+				float:left;
+				margin-left:10px;
+			}
 	.flypanels-content.content {
 		margin-top:20px;
 	}
