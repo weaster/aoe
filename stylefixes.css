@@ -538,7 +538,8 @@ nav.navbar {
 			.moss-header > .container > a:nth-of-type(2) img {
 				display:block;
 				border-right:2px solid #ff6600;
-				height:100%;
+				height:70%;
+				margin-top:7px;
 				position:static;
 				float:left;
 			}
