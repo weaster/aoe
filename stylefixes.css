@@ -211,7 +211,7 @@ nav.navbar {
 		}
 		.moss-header > .container > a {
 			position:relative;
-			z-index:2;
+			z-index:10;
 		}
 		.moss-header > .container a:nth-of-type(1) img {
 			left:11px;
@@ -236,6 +236,7 @@ nav.navbar {
 			width:100%;
 			height:50px;
 			display:none;
+			z-index:3;
 		}
 		.moss-header > .container .mobile-nav.visible {
 			background-color:#292323;
@@ -293,7 +294,7 @@ nav.navbar {
 					overflow:auto;
 					transition:all .5s;
 					height:calc(100vh - 50px);
-					z-index:1;
+					z-index:6;
 				}
 				.moss-header > .container .mobile-nav .mn-button .mn-menu.open {
 					right:0;
@@ -443,7 +444,7 @@ nav.navbar {
 	}
 		.right-side h1.page-heading > span {
 			position:relative;
-			z-index:5;
+			z-index:2;
 		}
 		.right-side h1 img {
 			position:absolute;
