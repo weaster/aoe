@@ -469,8 +469,9 @@ nav.navbar {
 				padding:10px 20px;
 			}
 		.right-side .mobile-side-nav {
+			height:0;
 			display:none;
-			margin-bottom:10px;
+			margin-bottom:20px;
 			overflow:hidden;
 			height:0;
 			transition:all .5s;
@@ -478,13 +479,14 @@ nav.navbar {
 			.mobile-side-nav .msn-item {
 				position:relative;
 				border-bottom:2px solid #999;
-				padding-top:9px;
+				padding-top:13px;
+				min-height:50px;
 				padding-left:20px;
 			}
 			.mobile-side-nav .sn-toggle {
 				position:absolute;
 				right:20px;
-				top:5px;
+				top:13px;
 			}
 			.mobile-side-nav .msn-subnav {
 				height:0;
@@ -494,7 +496,7 @@ nav.navbar {
 				line-height:1.2;
 			}
 				.mobile-side-nav .sn-item {
-					padding:9px 0;
+					padding:13px 0;
 				}
 
 
@@ -602,6 +604,7 @@ nav.navbar {
 		display:none;
 	}
 	.right-side .mobile-side-nav {
+		height:auto;
 		display:block;
 	}
 	.right-side h1.page-heading .msn-toggle {
