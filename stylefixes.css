@@ -438,7 +438,7 @@ nav.navbar {
 		background-color:#660000;
 		color:white;
 		margin:0 0 20px;
-		padding:10px 20px;
+		padding:10px 50px 10px 20px;
 		font-size:2em;
 		position:relative;
 	}
@@ -453,6 +453,44 @@ nav.navbar {
 			z-index:1;
 			height:100%;
 		}
+		.right-side h1.page-heading .msn-toggle {
+			position:absolute;
+			bottom:0;
+			right:0;
+			z-index:2;
+			display:none;
+		}
+			.right-side .msn-toggle i {
+				padding:10px 20px;
+			}
+		.right-side .mobile-side-nav {
+			display:none;
+			margin-bottom:10px;
+			overflow:hidden;
+			height:0;
+			transition:all .5s;
+		}
+			.mobile-side-nav .msn-item {
+				position:relative;
+				border-bottom:2px solid #999;
+				padding-top:9px;
+				padding-left:20px;
+			}
+			.mobile-side-nav .sn-toggle {
+				position:absolute;
+				right:20px;
+				top:5px;
+			}
+			.mobile-side-nav .msn-subnav {
+				height:0;
+				overflow:hidden;
+				margin-left:15px;
+				transition:all .5s;
+				line-height:1.2;
+			}
+				.mobile-side-nav .sn-item {
+					padding:9px 0;
+				}
 
 
 
@@ -558,6 +596,13 @@ nav.navbar {
 	.left-side .left-container {
 		display:none;
 	}
+	.right-side .mobile-side-nav {
+		display:block;
+	}
+	.right-side h1.page-heading .msn-toggle {
+		display:block;
+	}
+		
 	.carousel-caption.left p {
 		margin-bottom:20px;
 	}
