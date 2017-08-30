@@ -542,7 +542,54 @@ nav.navbar {
 		}
 
 
-
+/* ============================================
+                People Pages
+   ============================================ */
+.contact-card {
+	padding:20px;
+	background-color:#eee9d7;
+	overflow:hidden;
+}
+	.contact-card .img-wrap {
+		float:left;
+		width:30%;
+		padding-right:20px;
+	}
+		.img-wrap img {
+			width:100%;
+			display:inline-block;
+			vertical-align:middle;
+		}
+	.contact-card .info-wrap {
+		float:left;
+		width:70%;
+	}
+		.info-wrap h3 {
+			font-weight:500;
+			font-size:20px;
+		}
+		.info-wrap hr {
+			border-top-color:#BBB;
+			margin:15px 0;
+		}
+		.info-wrap .info {
+			position:relative;
+			padding-left:30px;
+			line-height:1.2;
+		}
+			.info-wrap .info .fa {
+				position:absolute;
+				top:3px;
+				left:0;
+				color:#ff6600;
+			}
+			.info-wrap .info p {
+				margin:0;
+			font-weight:300;
+			}
+			.info-wrap .info a {
+				font-size:16px;
+			}
 	
 
 /* ============================================
