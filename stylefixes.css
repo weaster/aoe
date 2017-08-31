@@ -433,6 +433,7 @@ nav.navbar {
 	padding-left:20px;
 	height:100%;
 	min-height:1000px;
+	padding-bottom:40px;
 }
 	.right-side .bucket {
 		max-width:1000px;
