@@ -442,6 +442,8 @@ nav.navbar {
 	}
 		.bucket ul li {
 			position:relative;
+			margin-bottom:15px;
+			line-height:1.4;
 		}
 			.bucket ul li:before {
 				font-family:"FontAwesome";
