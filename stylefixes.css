@@ -566,7 +566,7 @@ nav.navbar {
 }
 	.contact-card .img-wrap {
 		float:left;
-		width:200px;
+		width:240px;
 		padding-right:20px;
 	}
 		.img-wrap img {
@@ -577,7 +577,7 @@ nav.navbar {
 		}
 	.contact-card .info-wrap {
 		float:left;
-		width:calc(100% - 200px);
+		width:calc(100% - 240px);
 	}
 		.info-wrap h3 {
 			font-weight:500;
