@@ -90,6 +90,11 @@ nav.navbar {
 	padding:0;
 }
 
+h2 {
+	font-size:25px;
+	font-weight:500;
+}
+
 /* ============================================
               Main navigation
    ============================================ */
@@ -609,9 +614,7 @@ nav.navbar {
 				font-size:16px;
 			}
 	.contact-card h2 {
-		font-size:20px;
 		margin-top:0;
-		font-weight:500;
 	}
 	.contact-card .half {
 		float:left;
