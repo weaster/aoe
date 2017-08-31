@@ -552,17 +552,18 @@ nav.navbar {
 }
 	.contact-card .img-wrap {
 		float:left;
-		width:30%;
+		width:200px;
 		padding-right:20px;
 	}
 		.img-wrap img {
 			width:100%;
-			display:inline-block;
-			vertical-align:middle;
+			max-width:300px;
+			margin:0 auto;
+			display:block;
 		}
 	.contact-card .info-wrap {
 		float:left;
-		width:70%;
+		width:calc(100% - 200px);
 	}
 		.info-wrap h3 {
 			font-weight:500;
@@ -691,4 +692,15 @@ nav.navbar {
 		.carousel-caption.left p {
 			font-size:16px;
 		}
+	
+	
+}
+
+@media (max-width: 500px) {
+	.contact-card .img-wrap {
+		width:100%;
+	}
+	.contact-card .info-wrap {
+		width:100%;
+	}
 }
