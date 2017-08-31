@@ -444,6 +444,7 @@ nav.navbar {
 			position:relative;
 		}
 			.bucket ul li:before {
+				font-family:"FontAwesome";
 				content:"\F105";
 				position:absolute;
 				left:-20px;
