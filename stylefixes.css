@@ -92,7 +92,7 @@ nav.navbar {
 
 h2 {
 	font-size:25px;
-	font-weight:500;
+	font-weight:600;
 }
 
 /* ============================================
@@ -568,7 +568,7 @@ h2 {
    ============================================ */
 .contact-card {
 	padding:20px;
-	background-color:#eee9d7;
+	background-color:#fbf3e4;
 	overflow:hidden;
 }
 	.contact-card .img-wrap {
@@ -587,8 +587,11 @@ h2 {
 		width:calc(100% - 240px);
 	}
 		.info-wrap h3 {
-			font-weight:500;
+			font-weight:600;
 			font-size:20px;
+		}
+		.info-wrap h3:nth-of-type(1) {
+			margin-top:5px;
 		}
 		.info-wrap hr {
 			border-top-color:#BBB;
