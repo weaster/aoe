@@ -90,9 +90,16 @@ nav.navbar {
 	padding:0;
 }
 
-h2 {
+h2, .vt-tagcloud-heading {
 	font-size:25px;
 	font-weight:600;
+}
+
+.vt-tagcloud {
+	overflow:hidden;
+}
+.vt-text {
+	margin-bottom:40px;
 }
 
 /* ============================================
@@ -570,6 +577,7 @@ h2 {
 	padding:20px;
 	background-color:#fbf3e4;
 	overflow:hidden;
+	margin-bottom:30px;
 }
 	.contact-card .img-wrap {
 		float:left;
