@@ -734,4 +734,7 @@ h2 {
 	.contact-card .info-wrap {
 		width:100%;
 	}
+	.contact-card .half {
+		width:100%;
+	}
 }
