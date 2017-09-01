@@ -457,7 +457,7 @@ h2 {
 				left:-20px;
 				top:0;
 			}
-			ul.tagcloud li:before {
+			ul.tagcloud li:before, ul.tab-list li:before {
 				content:none;
 			}
 	.right-side h1.page-heading {
