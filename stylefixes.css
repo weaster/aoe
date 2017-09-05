@@ -452,12 +452,12 @@ h2, .vt-tagcloud-heading {
 		width:100%;
 		padding-left:20px;
 	}
-		.bucket ul li {
+		.bucket ul li.arrow {
 			position:relative;
 			margin-bottom:15px;
 			line-height:1.4;
 		}
-			.bucket ul li:before {
+			.bucket ul li.arrow:before {
 				font-family:"FontAwesome";
 				content:"\F105";
 				position:absolute;
