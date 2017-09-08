@@ -89,6 +89,9 @@ nav.navbar {
 	width:100%;
 	padding:0;
 }
+  #vt_body_col ul.tight li {
+    line-height:1;
+  }
 
 h2, .vt-tagcloud-heading {
 	font-size:25px;
@@ -114,9 +117,7 @@ h2, .vt-tagcloud-heading {
   padding-left:10px;
 }
 
-ul.tight li {
-  line-height:1;
-}
+
 
 /* ============================================
               Main navigation
