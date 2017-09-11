@@ -675,6 +675,9 @@ h2, .vt-tagcloud-heading {
 		line-height:1.4;
 		margin-bottom:20px;
 	}
+	.lab-list a {
+	  color:#ff6600;
+	}
 
 
 /* ============================================
