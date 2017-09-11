@@ -659,6 +659,7 @@ h2, .vt-tagcloud-heading {
 	overflow:hidden;
 	font-size:18px;
 	padding:20px;
+	margin-top:20px;
 	background-color:#fbf3e4;
 }
 	.lab-list h4 {
