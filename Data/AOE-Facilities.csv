@@ -9,7 +9,7 @@ ID,NAME,URL
 8,Attitude Determination and Control System Simulators,
 9,Propulsion & Plasma Vacuum Chamber,
 10,Anechoic Wall-Jet Wind Tunnel,
-11,Boundary Layer Wind Tunnel,
+11,Boundary Layer Wind Tunnel,https://www.aoe.vt.edu/research/facilities/bllab.html
 12,Wedge Drop Facility (Water Tank),
 13,Drag-Reduction Test Facility,
 14,Open-Circuit Wind Tunnel,
@@ -21,6 +21,6 @@ ID,NAME,URL
 20,High Speed DGV System,
 21,Towing Basin,https://www.aoe.vt.edu/testpages/researchupdate1708/facilities/towingba.html
 22,Hydrostatic Tank,
-23,Hypersonic Tunnel,
+23,Hypersonic Tunnel,https://www.aoe.vt.edu/research/facilities/hyperson.html
 24,Mini Water Tunnel,
-25,Aerostructures Axial-Torsional Test Facility,
+25,Aerostructures Axial-Torsional Test Facility,https://www.aoe.vt.edu/research/facilities/axlfacil.html
