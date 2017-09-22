@@ -1,10 +1,10 @@
 ID,NAME,URL
 1,Hypersonic Tunnel,https://www.aoe.vt.edu/research/facilities/hyperson.html
-2,Hot Jet Facility,
+2,Hot Jet Facility,https://create.centers.vt.edu/facilities/supersonichypersonichotjet.html
 3,Stereoscopic PIV,
 4,2-Bay UAS Hangar,
 5,2100 sf paved UAS Runway,
-6,Space Cosntellation Navigation and Timing Simulators,
+6,Space Constellation Navigation and Timing Simulators,
 7,Satellite Assembly Clean Room,
 8,Attitude Determination and Control System Simulators,
 9,Propulsion & Plasma Vacuum Chamber,
@@ -12,7 +12,7 @@ ID,NAME,URL
 11,Boundary Layer Wind Tunnel,https://www.aoe.vt.edu/research/facilities/bllab.html
 12,Wedge Drop Facility (Water Tank),
 13,Drag-Reduction Test Facility,
-14,Open-Circuit Wind Tunnel,
+14,Open-Circuit Wind Tunnel,https://www.aoe.vt.edu/research/facilities/openjet.html
 15,Smoke Tunnel,
 16,High Speed PIV System,
 17,Water Tunnel,
@@ -24,3 +24,5 @@ ID,NAME,URL
 23,Hypersonic Tunnel,https://www.aoe.vt.edu/research/facilities/hyperson.html
 24,Mini Water Tunnel,
 25,Aerostructures Axial-Torsional Test Facility,https://www.aoe.vt.edu/research/facilities/axlfacil.html
+26,Epilog 50W Laser Cutter and Engraver,
+27,Composite layup and fabrication equipment,

@@ -3,7 +3,7 @@ ID,NAME,DIRECTOR,LOCATION,URL
 2,Experimental Aeroacoustics Lab,"William Devenport, Nathan Alexander, Aurelien Borgoltz",Randolph 4P,
 3,Teaching/Research Lab,Aurelien Borgoltz,Goodwin Hall 140,https://www.aoe.vt.edu/research/facilities/ugradtl.html
 4,Vortical Flow and Diagnostics Lab,,Randolph 15C,
-5,Advanced Propulsion and Power Lab,,1670 Innovation Drive,
+5,Advanced Propulsion and Power Lab,,1670 Innovation Drive,http://seb199.me.vt.edu/appl/
 6,Hydro-Elasticity Lab,,Randolph 33C,
 7,Hydrodynamics Lab,,Randolph 33,
 8,Aerospace Structures and Materials Lab,"Michael Philen, Gary Seidel","Randolph 15A, 4J",https://www.aoe.vt.edu/research/facilities/ASML.html
@@ -12,9 +12,16 @@ ID,NAME,DIRECTOR,LOCATION,URL
 11,Autonomous Systems Lab,,,
 12,Kentland Experimental Aerial Systems Lab,Craig Woolsey,,https://www.aoe.vt.edu/research/facilities/keas.html
 13,Global Navigation Satellite System (GNSS) Lab,,,
-14,Spacecraft Design Lab,,,
-15,Space Systems Simulation Lab,,,
-16,Plasma and Propulsion Systems Lab,,,
+14,Spacecraft Design Lab,,"1901 Innovation Drive, Room 1005",
+15,Space Systems Simulation Lab,,"1901 Innovation Drive, Room 1014",
+16,Plasma and Propulsion Systems Lab,,"1901 Innovation Drive, Room 1012",
 17,Combustion Diagnostics Lab,,,
-18,Plasma Dynamics Lab,,,
+18,Plasma Dynamics Lab,,"1901 Aviation Drive, Room 1012",
 19,Airport Turbomachinery Lab,,,
+20,Machine Shop,William Devenport,,https://www.aoe.vt.edu/research/machineshop.html
+21,Student machine shop,William Devenport,,https://www.aoe.vt.edu/research/machineshop/student-shop.html
+22,3D Print Lab,Michael Philen,,https://www.aoe.vt.edu/research/machineshop/goodwin_nss_3dprintlab.html
+23,Advanced Research Computing (ARC) at Virginia Tech ,,,http://www.arc.vt.edu/
+24,AOE Studio for Design Innovation,,,https://www.aoe.vt.edu/programs/undergrad/undergrad-design.html
+25,Ware Advanced Engineering Laboratory,,Military Building 203,https://eng.vt.edu/warelab.html
+26,Model building center,,Randolph 4J,
