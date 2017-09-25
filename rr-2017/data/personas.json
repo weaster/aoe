@@ -41,16 +41,34 @@
     "bio"  : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     "attributes" : [
       {
-        "name"  : "Facial Hair",
-        "value" : 0.5
+        "name"  : "Humanities",
+        "value" : 0.5,
+        "decor" : [
+          {
+            "min"  : 0.25,
+            "name" : "jockey"
+          }
+        ]
       },
       {
-        "name"  : "Latin",
-        "value" : -0.1
+        "name"  : "Math",
+        "value" : -0.1,
+        "decor" : [
+          {
+            "min"  : 0.7,
+            "name" : "multimeter"
+          }
+        ]
       },
       {
-        "name"  : "Horses",
-        "value" : -0.9
+        "name"  : "Arts",
+        "value" : -0.9,
+        "decor" : [
+          {
+            "min"  : 0.4,
+            "name" : "colored-pencils" 
+          }
+        ]
       }
     ],
     "image" : "john.png"
