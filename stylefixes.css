@@ -122,6 +122,11 @@ input[type="checkbox"], input[type="radio"] {
   vertical-align:middle;
 }
 
+div.moss-header {
+  background-color:#660000;
+  height:87px;
+}
+
 
 
 /* ============================================
