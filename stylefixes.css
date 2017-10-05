@@ -26,7 +26,9 @@ body {
   margin-left:15px;
 }
 
-
+.secondary-content-container {
+  background-color:rgba(255,255,255,1);
+}
 
 
 
@@ -68,7 +70,7 @@ nav#vt_access_nav {
 		.uc-nav-c .uc-nav .nav-item.right {
 			float:right;
 		}
-		.uc-nav-c .uc-nav .nav-item:hover {
+		.uc-nav-c .uc-nav .nav-item.hover {
 			background-color:rgba(139,31,65,1);
 		}
 			.uc-nav-c .uc-nav .nav-item > a {
@@ -80,7 +82,7 @@ nav#vt_access_nav {
 				text-transform:uppercase;
 				font-size:13px;
 			}
-			.uc-nav-c .uc-nav .nav-item:hover a {
+			.uc-nav-c .uc-nav .nav-item.hover a {
 				color:white;
 			}
 				.uc-nav-c .uc-nav .nav-item > a > i {
@@ -96,7 +98,7 @@ nav#vt_access_nav {
 				overflow:hidden;
 				box-shadow:4px 4px 0 -1px rgba(109,106,117,1);
 			}
-			.uc-nav-c .uc-nav .nav-item:hover .submenu {
+			.uc-nav-c .uc-nav .nav-item.hover .submenu {
 				display:block;
 			}
 				.uc-nav-c .uc-nav .nav-item .submenu a {
