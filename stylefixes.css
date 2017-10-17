@@ -367,6 +367,50 @@ nav#vt_access_nav {
   padding-left:10px;
 }
 
+
+/* ============================================
+               Curriculum Info
+   ============================================ */
+.curriculum-container {
+  padding:10px 20px;
+}
+  .curriculum-container h3 {
+  
+  }
+  .curriculum-container h4 {
+    margin:5px 10px 0;
+    padding:10px 10px 7px;
+    border:2px solid #B9B7B9;
+    background-color:#F9F7F9;
+    border-radius:5px;
+    cursor:pointer;
+  }
+    .curriculum-container h4:hover {
+      background-color:#E9E7E9;
+    }
+  .curriculum-container h5 {
+    font-weight:900;
+    padding:0 20px;
+  }
+  .curriculum-container select {
+    padding:5px 12px;
+    margin-right:20px;
+  }
+.curriculum-entry {
+  border-bottom:1px solid #B9B7B9;
+  margin:0 20px;
+  padding:5px 10px;
+}
+  .curriculum-entry > div {
+    padding:5px 0;
+  }
+.expandable {
+  overflow:hidden;
+  transition:height .5s;
+  height:0;
+}
+
+
 @media (max-width: 995px) {
   .nav-item.right {
     display:none;
