@@ -36,6 +36,9 @@ body {
 .vt-list.aoe-concentration-icons li span {
   line-height:1.4em;
 }
+.vt-list-columns figure {
+  background-color:transparent;
+}
 
 
 
