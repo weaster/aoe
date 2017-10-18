@@ -30,6 +30,13 @@ body {
   background-color:rgba(255,255,255,1) !important;
 }
 
+.vt-list.aoe-concentration-icons img {
+  max-width:160px;
+}
+.vt-list.aoe-concentration-icons li span {
+  line-height:1.4em;
+}
+
 
 
 /* ============================================
@@ -286,9 +293,9 @@ nav#vt_access_nav {
 		}
 	.contact-card .info-wrap {
 		float:left;
-		width:calc(100% - 240px);
+		width:calc(100% - 241px);
 	}
-		.info-wrap h3, .info-wrap h2 {
+		.info-wrap h3, .info-wrap h2, .extra-links h3 {
 			font-weight:500;
 			font-size:1.1em;
 		}
@@ -327,6 +334,13 @@ nav#vt_access_nav {
 			line-height:1.2;
 			margin-bottom:10px;
 		}
+	.contact-card .extra-links {
+	  
+	}
+	  .extra-links p {
+	    margin-left:20px;
+	    margin-bottom:5px;
+	  }
 
 
 /* ============================================
