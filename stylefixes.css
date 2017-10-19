@@ -338,7 +338,8 @@ nav#vt_access_nav {
 			margin-bottom:10px;
 		}
 	.contact-card .extra-links {
-	  
+	  clear:both;
+	  overflow:hidden;
 	}
 	  .extra-links p {
 	    margin-left:30px;
