@@ -341,9 +341,18 @@ nav#vt_access_nav {
 	  
 	}
 	  .extra-links p {
-	    margin-left:20px;
+	    margin-left:30px;
 	    margin-bottom:5px;
 	  }
+	    .extra-links p a {
+	      margin-right:10px;
+	    }
+	    .extra-links p a::after {
+	      content:',';
+	    }
+	    .extra-links p a:last-child::after {
+	      content:'';
+	    }
 
 
 /* ============================================
