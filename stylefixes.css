@@ -349,6 +349,14 @@ nav#vt_access_nav {
 	      display:block;
 	      margin-right:10px;
 	    }
+	    .extra-links p a::before {
+	      content:'\f105';
+	      font-family:FontAwesome;
+	      display:inline-block;
+	      width:1.2em;
+	      margin-left:-19px;
+	      float:left;
+	    }
 
 
 /* ============================================
