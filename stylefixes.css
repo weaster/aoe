@@ -346,13 +346,8 @@ nav#vt_access_nav {
 	    margin-bottom:5px;
 	  }
 	    .extra-links p a {
+	      display:block;
 	      margin-right:10px;
-	    }
-	    .extra-links p a::after {
-	      content:',';
-	    }
-	    .extra-links p a:last-child::after {
-	      content:'';
 	    }
 
 
