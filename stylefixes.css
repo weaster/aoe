@@ -358,6 +358,59 @@ nav#vt_access_nav {
 	      float:left;
 	    }
 
+/* ============================================
+                Homepage Video
+   ============================================ */
+iframe {
+  max-height:56.25vw;
+}
+a.ob {
+	width:200px;
+	text-align:center;
+	display:block;
+	margin:5px auto;
+	padding:5px 8px;
+	background-color:#ff6600;
+	color:white;
+	box-shadow:0 4px 0 #e15a00;
+}
+.parbase.no-pad {
+	padding:0;
+	margin:0;
+}
+.vt-vtcontainer-content {
+	overflow:hidden;
+	position:relative;
+}
+.ytvid-main {
+	width:100%;
+	padding-right:220px;
+	margin-bottom:0;
+}
+.ytvid-side {
+	width:200px;
+	position:absolute;
+	right:0;
+	top:0;
+}
+	.ytvid-side img {
+		width:100%;
+		margin-bottom:10px;
+		background-color:#ff6600;
+		cursor:pointer;
+	}
+	.ytvid-side img:hover {
+		opacity:.5;
+	}
+	.vid-button {
+		position:absolute;
+		right:0;
+		bottom:0;
+	}
+		.vid-button i.fa {
+			margin-left:10px;
+    }
+
 
 /* ============================================
                    Lab Info
@@ -447,6 +500,16 @@ nav#vt_access_nav {
   .nav-item.right {
     display:none;
   }
+  .ytvid-main {
+		padding-right:0;
+	}
+	.ytvid-side {
+		display:none;
+	}
+	.vid-button {
+		position:relative;
+		margin:20px auto;
+	}
 }
 
 @media (max-width: 767px) {
@@ -471,16 +534,4 @@ nav#vt_access_nav {
   .half {
     width:100%;
   }
-}
-
-/* ============================================
-               People Pages
-   ============================================ */
-#vt_bio #vt_with_rb #vt_body_col
-{
-	width: 100%;
-}
-#vt_bio #vt_with_rb #vt_right_col
-{
-	display: none;
 }
