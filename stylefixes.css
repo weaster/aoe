@@ -496,6 +496,17 @@ a.ob {
 }
 
 
+/* ============================================
+               People Pages
+   ============================================ */
+#vt_bio #vt_with_rb #vt_body_col {
+  width: 100%;
+}
+#vt_bio #vt_with_rb #vt_right_col {
+	display: none;
+}
+
+
 @media (max-width: 995px) {
   .nav-item.right {
     display:none;
